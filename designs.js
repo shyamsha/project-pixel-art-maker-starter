@@ -4,8 +4,6 @@
 // When size is submitted by the user, call makeGrid()
 
 function makeGrid() {
-	console.log("makeGrid is running!")
-	
 	// Select size input
 	
 	var canvas, cell, gridHeight, gridWidth, rows;
@@ -48,5 +46,3 @@ submitQuery.click(function(event) {
   event.preventDefault();
   makeGrid();
 });
-
-
